@@ -1,0 +1,5 @@
+# Signed update metadata is byte-sensitive. Never perform line-ending conversion.
+update/latest.json -text
+update/latest.json.sig -text
+update/history/*.json -text
+update/history/*.json.sig -text
