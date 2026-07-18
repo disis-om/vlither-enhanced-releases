@@ -1,0 +1,33 @@
+# Android release binaries belong in GitHub Release assets, not Git history.
+*.apk
+*.aab
+*.apks
+
+# Never publish Android or manifest signing material.
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+
+# Never publish credentials or runtime secrets.
+.env
+.env.*
+secrets/
+private/
+credentials/
+
+# Publisher scratch files.
+*.tmp
+*.partial
+*.part
+update/latest.json.tmp
+update/latest.json.sig.tmp
+
+# Local tooling noise.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
