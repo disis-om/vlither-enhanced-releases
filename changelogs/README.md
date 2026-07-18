@@ -1,16 +1,13 @@
-# Changelogs
+# Release Chronicle
 
-Each approved release receives a dedicated Markdown changelog:
+Every public Vlither Enhanced release receives a permanent, versioned record.
+These documents describe user-visible work, engineering changes, compatibility
+notes and known boundaries without rewriting history after publication.
 
-```text
-v1.1.0.md
-v1.1.1.md
-v1.2.0.md
-```
+## Published
 
-Release notes describe real user impact, rendering and compatibility work,
-interface changes, reliability improvements, and known limitations. They must
-remain precise, professional, and credited to **OM Rajput**.
+- [v1.1.0 — The Foundation Release](v1.1.0.md)
 
-The `1.1.0` changelog will be added only after all planned application and UI
-changes are complete.
+## Next
+
+- **v1.2.0** — development begins from the verified 1.1.0 baseline.
