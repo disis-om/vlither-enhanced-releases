@@ -16,33 +16,34 @@ work and a focused interface designed for touch. It keeps the fast arena
 experience at the centre while rebuilding the surrounding client for Android
 instead of wrapping a desktop window or shipping a browser shell.
 
-Version **1.1.0** is the first official public release and the new foundation
-for every release that follows.
+Version **1.2.0** is the current official release: a major control and server
+experience expansion built on the production foundation established by 1.1.0.
 
 ## Download
 
-### [Download Vlither Enhanced v1.1.0](https://github.com/disis-om/vlither-enhanced-releases/releases/download/v1.1.0/Vlither-Enhanced-v1.1.0.apk)
+### [Download Vlither Enhanced v1.2.0](https://github.com/disis-om/vlither-enhanced-releases/releases/download/v1.2.0/Vlither-Enhanced-v1.2.0.apk)
 
 Always download from this repository's **Releases** page. APK files are
 attached to immutable versioned releases and are never committed into the Git
 history.
 
-## The 1.1.0 experience
+## The 1.2.0 experience
 
 | System | What it delivers |
 | --- | --- |
 | **Native arena** | Vulkan-backed rendering and an arm64 Android build tuned for responsive play. |
-| **Mobile control suite** | Left- or right-handed layouts, floating or fixed joystick/boost behavior, draggable control positions, zoom control, size and opacity tuning. |
+| **Expanded control suite** | Joystick and Arrow Steering modes, second-finger boost, handedness-aware layouts, draggable positions, zoom control and visual tuning. |
 | **Unified interface** | A graphite-and-emerald visual system across Home, Settings, Controls and Update Center. |
 | **Skin workshop** | The renderer-driven snake preview, color palette and accessory workflow preserved inside the refreshed client. |
 | **Resource optimization** | Reworked background and atlas assets reduce GPU texture pressure while retaining the visual identity of the arena. |
-| **Update Center** | Signed GitHub update architecture, visible progress states and a reserved publisher channel for future expansion. |
+| **Server selection** | Touch-native server discovery, search, selection and reusable custom endpoints directly inside the client. |
+| **Update Center** | Signed release metadata, visible progress states and production-certificate continuity. |
 | **Backup Vault** | User-owned backups for nickname, skin, gameplay, graphics and control preferences before future updates. |
 
 ## Install in four steps
 
 1. Open the [latest release](https://github.com/disis-om/vlither-enhanced-releases/releases/latest).
-2. Download `Vlither-Enhanced-v1.1.0.apk`.
+2. Download `Vlither-Enhanced-v1.2.0.apk`.
 3. Allow installation from your browser or file manager when Android asks.
 4. Open **Vlither Enhanced**, enter a nickname and server address, then press **Play**.
 
@@ -64,14 +65,14 @@ version, GPU name and the exact behavior observed.
 
 ## Release integrity
 
-The official v1.1.0 APK is identified by:
+The official v1.2.0 APK is identified by:
 
 ```text
 Package:      com.vlither.enhanced
-Version:      1.1.0
-Version code: 10100
-APK size:     9,262,081 bytes
-SHA-256:      dd006c5d2beeeaa1c5319dcceb427032997f64d8d83b28ff164823c47152fb93
+Version:      1.2.0
+Version code: 10203
+APK size:     10,580,282 bytes
+SHA-256:      a82001f818f2264c5250005f2519c17c6b0d19dcdbae79c839a406328e3b4f20
 Certificate:  a0d556a4e00c1e8a1949e40cace32f8b13a23c7f354ba1d7ea9c0f95f8a840b5
 ```
 
@@ -81,17 +82,18 @@ published as a newer version.
 
 ## Release archive and documentation
 
-- [Complete v1.1.0 changelog](changelogs/v1.1.0.md)
+- [Complete v1.2.0 changelog](changelogs/v1.2.0.md)
+- [v1.1.0 foundation changelog](changelogs/v1.1.0.md)
 - [Release policy](RELEASE_POLICY.md)
 - [GitHub update architecture](docs/update-system.md)
 - [All GitHub Releases](https://github.com/disis-om/vlither-enhanced-releases/releases)
 
 ## Road ahead
 
-The **1.1.x** line establishes the Android client, visual system, control
-foundation and secure distribution path. Development now moves toward
-**Vlither Enhanced 1.2.0**, with future work building on this baseline rather
-than fragmenting it into separate experimental editions.
+The **1.2.x** line expands Vlither Enhanced into a broader mobile platform:
+multiple control styles, touch-native configuration and server discovery now
+sit on top of the established signing and update foundation. Future work will
+extend this verified baseline rather than fragmenting it into separate builds.
 
 ---
 
